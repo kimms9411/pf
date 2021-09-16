@@ -1,0 +1,249 @@
+p,li,dl,a,span{line-height: 1.1em}
+.hidden{display: block; position: absolute; z-index: 10; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+.main-text {font-family: '돋움', serif; font-size: 60px; color: #333; margin: 30px auto; line-height: 1.5em;}
+h1{font-size: 60px}
+a{text-decoration: none; color: #333; display: block}
+strong{color: #405688}
+
+
+#section0 span.line {width: 100%; height: 1px; background: #333; display: block; position: absolute; top: 50%; z-index: 1}
+
+
+.profileWrap{width: 45%; float: left; text-align: justify; padding-top: 6%; margin-left: 5%}
+.profileWrap .profileText{overflow: hidden}
+.profileWrap .develop dd:nth-of-type(3){clear: both; margin-left: 20%}
+.profileWrap .develop dd:nth-of-type(4){clear: both; margin-left: 20%}
+#section1 .profileImg { width: 30%; float: left; margin: 0 5% 0 10%}
+#section1 dl dd img{width: 80%; margin-left: 0}
+.profileWrap h2{margin-left: 35%; font-size: 36px; font-weight: 700; color: #405688; margin-bottom: 15px}
+.profileWrap p { padding-left:20%; margin-bottom:50px; font-weight: 700; font-size: 22px}
+.profileWrap dl{ overflow: hidden; margin: 20px 0}
+.profileWrap dt{ width: 25%; float: left; padding: 5px 0 ; font-weight: 700}
+.profileWrap dd{ width:70%; float: left; padding: 5px 0}
+.profileImgWrap {overflow: hidden; margin-left: -5%}
+.profileImgWrap .downPort a {background: #405688; width: 220px; border-radius: 5px; color: #fff; margin:  0 10px 10px 0;padding: 5px; text-align: center; float: left; font-size: 16px; line-height: 2em; font-weight: 700}
+.profileImgWrap .downPort a:hover { color:#f3bd43; }
+
+.section .wrap{
+    position: relative;
+    width: 50%;
+    float: right;
+    z-index: 5;
+    height: 100%;
+    overflow: hidden;
+    top: 15%;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+.section .wrap img{
+    max-width: 100%;
+}
+
+.section .wrap img:nth-of-type(2){position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 4%;
+    transform: translateX(-50%); }
+
+.section .text{
+    width:50%; 
+    float: left; 
+    position: relative; 
+    top: 15%;
+    overflow: hidden;
+}
+
+
+.section .text h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    margin-left: 17%;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+}
+.section .text p{font-size: 15px; line-height:1.5em;
+    color: #fff;
+    text-align: left;
+    margin-left: 17%;
+}
+
+.section .grayText p:after{    
+    background: #666;
+}
+.section .pcText p:after{    
+    bottom: 44%;
+}
+
+.section .text .timeSkill{    
+    color: #fff;
+    text-align: left;
+    margin-left: 18%;
+    margin-top: 11%;}
+
+.section .text .skill dl{margin-bottom: 3%}
+.section .text .skill dl dt{
+    font-weight: bold; 
+    margin-bottom: 2%;
+    font-size: 20px;
+    position: relative;
+    left: 20px; 
+}
+.section .text .skill dl dt::before{content: '';display: block; width: 6px; height: 6px; border-radius: 50%; background: #fff; position: absolute; top: 8px; left: -20px}
+.section .text .skill dl dd{margin-bottom: 0.5%}
+.section .text div.graySkill dt::before{background: #666}
+
+.section .grayText h2, .section .grayText p, .section .text .graySkill{
+    color: #666;
+}
+
+.section .text .site{    
+   text-align:right; position: relative;
+}
+
+.section .site:after{    
+    content: "";
+    position:absolute;
+    display:block;   
+    width:95%;
+    height: 1px;
+    background: #666;
+    bottom: 50%;
+}
+
+.section .text .site a{ 
+    position:relative;   z-index:1;
+    display: inline-block;    
+    background: #666;
+    text-align:center;
+    width: 220px;
+    border-radius: 50px;
+    height: 30px; line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section .text .pcSite{    
+    top: 53%;
+}
+
+
+.section .grayText .site a{    
+    color: #fff;
+}
+
+  /*** 1440보다 작았을 때     ***/
+  @media (max-width:1440px) {
+      #header_in { max-width:100%; }
+      #header_in #menu{display:inline-block; }
+  }
+
+  /*** 768보다 작았을 때     ***/
+  @media (max-width:768px) {
+      
+    #header_in { max-width:100%;  text-align:center; }
+    header { height: 70px; }
+    #menu li a, #menu li.active a { padding:7px 7px; }
+    #menu li { top:10px;margin:5px;color: #000;
+        
+        }
+    #menu a { font-size:0.7em;}
+   
+
+    #section0 .fp-tableCell { display: table-cell; }
+
+    .fp-tableCell { display:block; }
+    .section div.pcText, .section div.responsiveText{ top:8%; }
+
+    dd dt { width: 100%; float:none; }
+    .section .responsivePc img { width:100%; float:none; }
+    .section .btWrap img, .section .wpWrap img { width: 100%; top: none; left: none; }
+
+    .section .text { width: 100%; float: none; position: relative; top:10%; overflow: hidden; }
+
+    .section .text .site {
+        width:250px;
+        text-align: right;
+        position: relative; margin-top: 30px;
+    }
+    .section .text .timeSkill { display:none; }
+
+    .section .wrap {
+        position: relative;
+        width: 100%;
+        float: none;
+        z-index: 5;
+        height: auto;       
+        padding-right: 0;
+    }
+    
+    .section .text h2 {
+        font-size: 25px;        
+        margin-left: 10%;
+        margin-bottom: 3%;
+        word-spacing: -3px;
+        letter-spacing: -2px;
+    }
+
+    
+    .section .text p {
+        font-size: 14px;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .section .text .skill dl dt {
+        font-weight: bold;
+        margin-bottom: 2%;
+        font-size: 13px;
+        left: 20px;
+    }
+   
+
+    .section .text p:after { display:none ;}
+    
+    .section .wrap .responsivePc img{
+        width: 100%;
+        float:none;
+        z-index: 1;
+        
+    }
+
+    .section .wrap img {
+        max-width: 80%;
+    }
+
+    .profileWrap h2 {
+        display:inline-block;
+        margin-left: 50%; transform:translateX(-50%);
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .profileWrap p {
+        padding-left:0;
+        display:inline-block;
+        margin-left: 50%; transform:translateX(-50%);
+        margin-bottom:30px;
+        font-size: 15px;
+    }
+
+    .profileWrap dd {
+        width: 100%;
+        float: none;
+    }
+    .profileWrap{width:100%; float:none; padding-top: 6%; margin-left:0; }
+    .profileWrap .develop dd:nth-of-type(3), .profileWrap .develop dd:nth-of-type(4){ display:none }
+   
+    #section1 .profileImg { width:40%; float:none; margin-top:50px}
+    #section1 dl dd img{width: 80%; margin-left: 0}
+    .profileWrap span{margin-left: 10%; font-weight: 700; font-size: 22px}
+    .profileWrap dl{ width:80%; margin: 20px auto; }
+    .profileWrap dt{ width: 40%; float: left; padding: 5px 0;}
+    .profileWrap dd{width: 55%; float: left; padding: 5px 0}
+    .profileImgWrap {overflow: hidden; margin-left: -5%}
+    .profileImgWrap .downPort a {background: #405688; width: 220px; border-radius: 5px; color: #fff; margin:  0 10px 10px 0;padding: 5px; text-align: center; float: left; font-size: 16px; line-height: 2em; font-weight: 700}
+    .profileImgWrap .downPort a:hover { color:#f3bd43; }
+
+
+  }

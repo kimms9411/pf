@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link rel="stylesheet" href="css/fullpage.css">
+	<link rel="stylesheet" href="css/examples.css">
+	<link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/typer.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header_in">
+            <ul id="menu">
+                <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+                <li data-menuanchor="secondPage" class="active"><a href="#secondPage">About me</a></li>
+                <li data-menuanchor="3rdPage" class="active"><a href="#3rdPage">PC web</a></li>
+                <li data-menuanchor="4rdPage" class="active"><a href="#4rdPage">Bootstrap</a></li>
+                <li data-menuanchor="5rdPage" class="active"><a href="#5rdPage">Responsive web</a></li>
+                <li data-menuanchor="6rdPage" class="active"><a href="#6rdPage">ETC</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <div id="fullpage">
+        <div class="section " id="section0">
+           <h1 class="hidden">kimminsu's profile</h1>
+           <div class="main-text">
+               <span class="tiny-typer-text">
+                   - "Web Design"
+                   <br>
+                   "Web Publisher" -
+               </span>
+               <span class="tiny-typer-cursor" style="opacity:0.18;"></span>
+           </div>
+           <span class="line">
+
+           </span>
+           <p>KIM MIN SU</p>
+        </div>
+        
+        <!--프로필-->
+        <div class="section" id="section1">
+            <img src="img/P.jpg" alt="" class="profileImg">
+            <div class="profileWrap">
+                <div class="profileText">
+                    <h2>김민수</h2>
+                    <p class="eName">Web Design & Web Publisher</p>
+                    <dl class="info">
+                        <dt>Birth</dt> 
+                        <dd>1994.11.08</dd>
+                        <dt>Education</dt>
+                        <dd>원광보건대학교 치기공과 졸업</dd>
+                        <dt>Call</dt> 
+                        <dd>010.2017.8672</dd>
+                        <dt>Email</dt> 
+                        <dd>kimms9411@naver.com</dd>
+                    </dl>
+                    <dl class="develop">
+                        <dt>Skills(Design)</dt>
+                        <dd>Adobe Photoshop</dd>
+                        <dt>Skills(Develop)</dt>
+                        <dd><img src="img/skill.png" alt=""></dd>
+                        <dd>HTML5/CSS3, JavaScript, jQuery</dd>
+                        <dd>UX/UI, Bootstrap, Auto CAD</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+        <!--기업형-->
+        <div class="section" id="section2">
+            <div class="pcText text  grayText">
+              <h2>1365자원봉사포털<br><strong>responsive</strong><br>웹 사이트 제작</h2>
+              <p>사이트 기획의도 : 기존 웹사이트의 산만한 Interface,<br>Headin Tag와 Image Alt 누락으로 인한 접근성 부재를 문제점으로 삼아<br> 트렌드에 맞는 UI와 웹 표준을 지향하는 마크업으로 <br>접근성을 고려하여 새롭게 구축하였습니다</p>
+              <div class="timeSkill skill graySkill">
+                  <dl>
+                      <dt>제작기간</dt>
+                      <dd>2021. 07. 09 ~ 07. 29 (약 4주)</dd>
+                  </dl>
+                  <dl>
+                      <dt>제작스킬</dt>
+                      <dd>Adobe Photoshop</dd>
+                      <dd>HTML5/CSS3, Javascript, jQuery,php(include/ 회원가입/ 로그인/ 게시판/ 메일보내기)</dd>
+                      <dd>W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 크로스브라우징 완료</dd>
+                  </dl>
+              </div>
+              <div class="pcSite site"><a href="https://rlaalstn9411.cafe24.com/P/1365VP/index.html" target="_blank">view site</a></div>
+            </div>
+            <div class="pcWrap wrap">
+                <img src="img/13651.png" alt="">
+              </div>
+        </div>
+        
+        <!-- Bootstrap -->
+        <div class="section" id="section3">
+            <div class="btText text grayText">
+              <h2>SINGULART<br><strong>BOOTSTRAP</strong><br>웹 사이트 제작</h2>
+              <p>사이트 기획의도 : 평소에 관심있던 주제를 <br>부트스트랩 플러그인에 접목해서컨셉을 잡고 디자인을 해보고싶어 진행했습니다.</p>
+              <div class="timeSkill skill graySkill">
+                  <dl>
+                      <dt>제작기간</dt>
+                      <dd>2021. 08. 09 ~ 08.13  (약 5일)</dd>
+                  </dl>
+                  <dl>
+                      <dt>제작스킬</dt>
+                      <dd>Adobe Photoshop</dd>
+                      <dd>HTML5/CSS3, Javascript</dd>
+                      <dd>Bootstrap 플러그인을<br>이용한 웹사이트 구현</dd>
+                  </dl>
+              </div>
+              <div class="btSite site"><a href="http://rlaalstn9411.cafe24.com/P/Bootstrap/index.html" target="_blank">view site</a></div>
+            </div>
+            <div class="btWrap wrap">
+                <img src="img/Bootstrap1.png" alt="">
+              </div>
+        </div>
+        
+        <!--반응형-->
+        <div class="section" id="section4">
+            <div class="slide">
+                <div class="responsiveText text grayText">
+                   <h2>GALLERY'S<br><strong>Responsive</strong><br>웹 사이트 제작</h2>
+                  <p>사이트 기획의도 : 사진이나 그림을  주제로 한 사이트로써,<br>다양한 디바이스에서 폭 넓게 이용할 수 있도록<br>반응형 웹을 구축하였습니다.</p>
+                  <div class="timeSkill skill graySkill">
+                      <dl>
+                          <dt>제작기간</dt>
+                          <dd>2021. 08. 09 ~ 09. 01 (약 4주)</dd>
+                      </dl>
+                      <dl>
+                          <dt>제작스킬</dt>
+                          <dd>Adobe Photoshop</dd>
+                          <dd>HTML5/CSS3, Javascript, jQuery</dd>
+                          <dd>CSS3와 스크립트를 이용한 디바이스/해상도별 반응형 UI 구현</dd>
+                          <dd>W3C 웹표준 마크업 검사, 웹접근성검사(K-WAH), 대표 기기별 테스트 완료</dd>
+                      </dl>
+                  </div>
+                  <div class="responsiveSite site"><a href="https://rlaalstn9411.cafe24.com/Picture/Gallery's/index.html" target="_blank">view site</a></div>
+                    
+                </div>
+                <div class="responsivePc wrap">
+                    <img src="img/Gc1.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- ETC -->
+        <div class="section" id="section5">
+            <div class="btText text grayText">
+               <h2>ETC<br><strong>Photoshop<br>Photoshop Drawing<br>AUTO CAD<br>Hand Drawing</strong></h2>
+              <p>기획의도 :그전에 배웠던거를  평소에 집에서<br>연습했던거를 모아봤습니다.</p>
+              <div class="timeSkill skill graySkill">
+                  <dl>
+                      <dt>제작기간</dt>
+                      <dd>2021. 05. 01 ~ 08. 15 (약 16주)</dd>
+                  </dl>
+                  <dl>
+                      <dt>제작스킬</dt>
+                      <dd>Adobe Photoshop</dd>
+                      <dd>Adobe Photoshop Drawing</dd>
+                      <dd>AUTO CAD</dd>
+                      <dd>Hand Drawing</dd>
+                  </dl>
+              </div>
+              
+              <div class="btSite site"><a href="https://rlaalstn9411.cafe24.com/00/ETC/index.html" target="_blank">view site</a></div>
+            </div>
+            <div class="wpWrap wrap">
+                <img src="img/E1.jpg" alt="">
+             </div>
+    </div>
+        <script src="js/fullpage.js"></script>
+        <script>
+            var myFullpage = new fullpage('#fullpage', {
+                sectionsColor: ['#efeeeb', '#efeeeb', '#efeeeb', '#efeeeb', '#efeeeb', '#efeeeb', '#efeeeb'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage', '6rdPage'],
+                navigation:true,
+                menu: '#menu'
+            });
+        </script>
+        <script src="js/typer.js"></script>
+        <script>			
+        window.onload=function(){	
+            var el       = document.querySelector('.main-text')
+            var options  = {
+                text: 'Web Design & Web Publisher',
+          textSpeed: 75,
+          blinkSpeed: 0.06
+            }
+            var instance = new tinytyper(el, options);
+        }
+        </script>
+        </body>
+        </html>
